@@ -58,10 +58,10 @@ body > #body {
 div:hover {
 	margin-left: 350px;
 } 
-#body > div:hover > #last {
+#body:hover > div > #last {
 	color: #f77111;
 }
-#body > div:hover > #last > span {
+#body:hover > div > #last > span {
 	color: white;
 }
 #body > div img {

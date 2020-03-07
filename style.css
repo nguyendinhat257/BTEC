@@ -1,0 +1,85 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	position: relative;
+}
+body > #body {
+	position: absolute;	
+	top: 60px;
+    left: 395px;
+}
+#rz {
+	display: inline-block;
+	margin-top: 180px;	
+	margin-left: 445px;
+}
+#body > div {
+	display: inline-block;
+	margin: 50px;
+	position: relative;
+	width: 505px;
+	border: 1px solid black;
+	border-radius: 25px;
+	background-color: #ebebeb;
+	box-shadow: 5px 5px 8px black;
+}
+#body > div > i {
+	font-size: 500px;	
+	color: rgba( 238, 35, 155, 0.4);
+}
+#body > div p{
+	position: absolute;
+    top: 100px;
+    left: 136px;
+    font-size: 25px;
+    color: white;
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 0px 0px 5px red;
+}
+#body > div > #last{
+	position: absolute;
+    width: 350px;
+    top: 164px;
+    left: 85px;
+    font-size: 18px;
+    color: #077111;
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: none;
+}
+#body > div > #last >span {
+	font-size: 20px;
+	color: blue;
+}
+div:hover {
+	margin-left: 350px;
+} 
+#body > div:hover > #last {
+	color: #f77111;
+}
+#body > div:hover > #last > span {
+	color: white;
+}
+#body > div img {
+	position: absolute;
+	top: 280px;
+    left: 157px;
+}
+body > #rose {
+	position: absolute;
+	bottom: -250px;
+	left: 0px;
+	width: 230px;
+	height: 200px;
+}
+body > #balloon {
+	position: absolute;
+	bottom: -250px;
+	right: 5px;
+	width: 130px;
+	height: 250px;
+}
